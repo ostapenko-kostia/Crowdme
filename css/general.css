@@ -23,10 +23,13 @@ button:hover {
 	transform: scale(1.1);
 }
 
+body {
+	font-family: "Open Sans";
+}
+
 /*Header*/
 
 header {
-	font-family: "Open Sans";
 	height: 80px;
 	display: flex;
 	align-items: center;
@@ -82,7 +85,7 @@ header {
 	opacity: 0.67;
 	font-size: 13px;
 	font-weight: 600;
-	color: #666666;
+	color: #666;
 }
 
 .headerSect-login {
@@ -93,7 +96,6 @@ header {
 	border-radius: 400px;
 	border: none;
 	opacity: 0.81;
-	font-family: 'Open Sans';
 	font-size: 13px;
 	font-weight: 600;
 	color: #fff;
@@ -106,7 +108,7 @@ header {
 
 .intro {
 	background: url("../imgs/intro-bg.png") center top / cover no-repeat;
-	height: 570px;
+	height: 600px;
 }
 
 .intro-title {
@@ -114,7 +116,6 @@ header {
 }
 
 .intro-title h2 {
-	font-family: 'Open Sans';
 	font-size: 49px;
 	font-weight: 600;
 	color: #fff;
@@ -138,9 +139,38 @@ header {
 	background-color: #99c50a;
 	border: none;
 	border-radius: 15px;
-	font-family: 'Open Sans';
 	font-size: 19px;
 	font-weight: 600;
 	color: #fff;
 	margin-top: 50px;
+}
+
+/*About Section 1st Part*/
+
+.about-1part {
+	margin-bottom: 120px;
+}
+
+.about-1part .container {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about1part-title {
+	margin-top: 45px;
+	font-size: 31px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #515151;
+	text-align: center;
+}
+
+.about1part-text {
+	margin-top: 70px;
+	text-align: center;
+	opacity: 0.7;
+	font-size: 19px;
+	color: #515151;
 }

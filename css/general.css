@@ -10,17 +10,31 @@
 	margin: 0 auto;
 }
 
+ul {
+	list-style-type: none;
+}
+
 /*Header*/
 
 header {
 	font-family: "Open Sans";
+	height: 80px;
 	display: flex;
 	align-items: center;
-	height: 80px;
+}
+
+.header .container {
+	display: flex;
 }
 
 .logo {
 	display: flex;
+	width: 250px;
+}
+
+.logo img {
+	height: 40px;
+	width: auto;
 }
 
 .logo h1 {
@@ -28,8 +42,53 @@ header {
 	font-size: 31px;
 	text-transform: uppercase;
 	color: #6d6e70;
+	margin-left: 10px;
+	margin-top: 6px;
 }
 
 .logo h1 span {
 	color: #595959;
+}
+
+.header-menu ul {
+	display: flex;
+}
+
+.header-menu {
+	padding-top: 16px;
+	margin-left: 100px;
+}
+
+.menu-item {
+	margin-right: 25px;
+}
+
+.menu-item:nth-child(5) {
+	margin-right: 0;
+}
+
+.menu-item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	opacity: 0.67;
+	font-size: 13px;
+	font-weight: 600;
+	color: #666666;
+}
+
+.headerSect-login {
+	width: 100px;
+	height: 40px;
+	opacity: 0.81;
+	background-color: #add136;
+	border-radius: 400px;
+	border: none;
+	opacity: 0.81;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-top: 8px;
 }

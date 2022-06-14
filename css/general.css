@@ -19,6 +19,10 @@ button {
 	transition: .3s ease;
 }
 
+a {
+	text-decoration: none;
+}
+
 button:hover {
 	transform: scale(1.1);
 }
@@ -39,7 +43,7 @@ header {
 	display: flex;
 }
 
-.logo {
+.logo a {
 	display: flex;
 	width: 250px;
 }
@@ -73,6 +77,12 @@ header {
 
 .menu-item {
 	margin-right: 25px;
+	cursor: pointer;
+	transition: .2s ease;
+}
+
+.menu-item:hover {
+	transform: scale(1.1);
 }
 
 .menu-item:nth-child(5) {
@@ -215,6 +225,11 @@ header {
 	display: flex;
 	justify-content: center;
 	cursor: pointer;
+	transition: .2s linear;
+}
+
+.slider-item:hover {
+	transform: scale(1.1);
 }
 
 .ab2part-progressbar {
@@ -258,4 +273,75 @@ header {
 	font-size: 17px;
 	font-weight: 400;
 	color: #606060;
+}
+
+/*User Buttons Section*/
+
+.user-btns {
+	display: flex;
+	height: 305px;
+	margin-bottom: 80px;
+}
+
+.become-a-member,
+.submit-your-project {
+	width: 50%;
+	height: 305px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.become-a-member {
+	background: url("../imgs/bAm-bg.png");
+}
+
+.submit-your-project {
+	background: url("../imgs/sYp-bg.png");
+}
+
+.bAm-photo,
+.sYp-photo {
+	margin-right: 40px;
+	height: 112px;
+}
+
+.bAm-rightContent h3,
+.bAm-rightContent p,
+.sYp-rightContent h3,
+.sYp-rightContent p {
+	margin-bottom: 30px;
+}
+
+.bAm-rightContent h3,
+.sYp-rightContent h3 {
+	font-family: "Montserrat";
+	font-size: 23px;
+	color: #515151;
+}
+
+.bAm-rightContent p,
+.sYp-rightContent p {
+	font-size: 17px;
+	font-weight: 500;
+	color: #515151;
+}
+
+.bAm-button,
+.sYp-button {
+	width: 190px;
+	height: 50px;
+	border: none;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.bAm-button {
+	background-color: #26a6d1;
+}
+
+.sYp-button {
+	background-color: #add136;
 }

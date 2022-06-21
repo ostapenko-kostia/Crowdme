@@ -345,3 +345,148 @@ header {
 .sYp-button {
 	background-color: #add136;
 }
+
+/*Featured Products Section*/
+
+.featured-projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ftprojects-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 65px;
+}
+
+.featured-project {
+	width: 300px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+}
+
+.ftprojects-title-leftSide h2 {
+	font-size: 29px;
+	font-weight: 600;
+	color: #515151;
+	margin-bottom: 25px;
+}
+
+.ftprojects-title-leftSide p {
+	font-size: 17px;
+	font-weight: 400;
+	color: #8f8f8f;
+}
+
+.ftprojects-title-rightSide {
+	width: 180px;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid rgba(81, 81, 81, 0.41);
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	color: rgba(81, 81, 81, 0.7);
+}
+
+.featured-project-top {
+	width: 300px;
+	position: relative;
+}
+
+.featured-project-bottom {
+	padding-top: 30px;
+	padding-left: 5%;
+	background-color: #f7f7f7;
+	border: 1px solid rgba(0,0,0,0.13);
+	transform: translateY(-5px);
+}
+
+.ftprojects-new {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.featured-project-top button {
+	width: 140px;
+	height: 35px;
+	background-color: #26a6d1;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	position: absolute;
+	right: 15px;
+	bottom: 18px;
+}
+
+.featured-project-top button span {
+	font-weight: 700;
+}
+
+.ftproject-bottom-title {
+	font-size: 17px;
+	font-weight: 700;
+	color: #484848;
+	margin-bottom: 17px;
+}
+
+.ftproject-bottom-subtitle {
+	opacity: 0.7;
+	font-size: 13px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #484848;
+	margin-bottom: 20px;
+}
+
+.ftproject-bottom-progressbar {
+	width: 95%;
+	height: 14px;
+	background-color: #e3e3e3;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.ftproject-bottom-progressbar span {
+	display: block;
+	height: 100%;
+	background-color: #add136;
+	position: relative;
+	overflow: hidden;
+	width: 38px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.ftproject-bottom-pbinfo {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 5%;
+	margin-bottom: 20px;
+}
+
+.ftpr-bottom-pbprecent,
+.ftpr-bottom-pbtime {
+	font-size: 13px;
+	font-weight: 600;
+	color: #8d8d8d;
+}
+
+.featured-project-bottom hr {
+	width: 95%;
+	border: none;
+	height: 1px;
+	background-color: #d6d6d6;
+	margin-bottom: 20px;
+}
+
+.projectDetails {
+	margin-bottom: 10px;
+	cursor: pointer;
+	transform: translateX(70%);
+}

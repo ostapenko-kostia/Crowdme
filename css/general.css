@@ -586,3 +586,46 @@ header {
 	font-weight: 600;
 	color: #494949;
 }
+
+/*Brands*/
+
+.brands {
+	height: 130px;
+}
+
+.brands .container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	align-items: center;
+}
+
+.brands-photo {
+	height: 45px;
+}
+
+.brands-footer {
+	height: 1px;
+	background-color: #ccc;
+	border: none;
+}
+
+/*Footer*/
+
+footer {
+	height: 65px;
+}
+
+.footer .container {
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer .container p {
+	font-size: 13px;
+	font-weight: 400;
+	color: #848484;
+}

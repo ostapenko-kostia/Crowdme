@@ -348,6 +348,10 @@ header {
 
 /*Featured Products Section*/
 
+.featured-projects-section {
+	margin-bottom: 30px;
+}
+
 .featured-projects {
 	display: flex;
 	flex-wrap: wrap;
@@ -362,8 +366,12 @@ header {
 
 .featured-project {
 	width: 300px;
-	margin-right: 60px;
+	margin-right: 90px;
 	margin-bottom: 60px;
+}
+
+.featured-project:nth-child(3) {
+	margin-right: 0;
 }
 
 .ftprojects-title-leftSide h2 {
@@ -489,4 +497,92 @@ header {
 	margin-bottom: 10px;
 	cursor: pointer;
 	transform: translateX(70%);
+}
+
+/*Testimonials Section*/
+
+.testimonials-section .container {
+	width: 980px;
+}
+
+.testimonials-section {
+	background: url("../imgs/testimonials_bg.png") no-repeat center / cover; 
+}
+
+.testimonials-header {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.testimonials-section-title {
+	font-size: 39px;
+	font-weight: 600;
+	color: #9ec02d;
+	margin-bottom: 40px;
+}
+
+.testimonials-header p {
+	font-size: 19px;
+	font-weight: 400;
+	color: #949494;
+}
+
+.testimonials {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.testimonial {
+	width: 397px;
+	margin-bottom: 60px;
+	margin-right: 185px;
+}
+
+.testimonial:nth-child(2) {
+	margin-right: 0;
+}
+
+.testimonial-header {
+	position: relative;
+	margin-bottom: 13px;
+}
+
+.testimonial-header h3 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 25px;
+	font-size: 21px;
+	font-weight: 600;
+	color: #9ec02d;
+}
+
+.testimonial-header p {
+	position: absolute;
+	display: block;
+	width: 320px;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+	font-size: 13px;
+	color: #848484;
+	text-align: center;
+	font-weight: 400;
+}
+
+.testimonial-footer {
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+
+.testimonial-footer-userPhoto {
+	margin-right: 20px;
+}
+
+.testimonial-footer-username {
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 600;
+	color: #494949;
 }

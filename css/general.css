@@ -629,3 +629,234 @@ footer {
 	font-weight: 400;
 	color: #848484;
 }
+
+/*Adaptive*/
+
+@media(max-width: 1180px) {
+	.container {
+		width: 980px;
+	}
+	.featured-project {
+		margin-right: 40px;
+	}
+	.brands {
+		display: none;
+	}
+}
+
+@media(max-width: 1130px) {
+	.container {
+		width: 760px;
+	}
+	.header .container {
+		flex-direction: column;
+	}
+	.logo a {
+		margin: 0 auto 10px auto;
+		transform: translate(0);
+		width: 220px;
+	}
+	.logo {
+		width: 220px;
+		margin: 0 auto;
+	}
+	header {
+		height: auto;
+		padding: 10px 0;
+	}
+	.headerSect-login {
+		margin: 10px auto 0 auto;
+	}
+	.header-menu {
+		margin: 0 auto;
+		padding: 0;
+	}
+	.featured-project,
+	.featured-project:nth-child(3n) {
+		margin-right: 160px;
+	}
+	.featured-project:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+
+@media(max-width: 1008px) {
+	.testimonials {
+		flex-direction: column;
+		align-items: center;
+	}
+	.testimonial {
+		margin-right: 0;
+		margin-bottom: 80px;
+	}
+	.ab2part-progressbar {
+		display: none;
+	}
+	.ab2part-slider-titles ul {
+		flex-direction: column;
+		align-items: center;
+	}
+	.slider-item {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.testimonials-header {
+		width: 760px;
+		margin: 0 auto 100px auto;
+	}
+}
+
+@media(max-width: 932px) {
+	.ftprojects-title-leftSide p br {
+		display: none;
+	}
+	.user-btns {
+		flex-direction: column;
+		height: auto;
+	}
+	.become-a-member,
+	.submit-your-project {
+		width: 100%;
+		padding: 10px 0;
+	}
+	.intro-title h2 {
+		font-size: 40px;
+	}
+	.intro-content {
+		padding-top: 50px;
+	}
+	.testimonials-header {
+		width: 500px;
+	}
+	.testimonials-section .container {
+		width: 760px;
+	}
+}
+
+@media(max-width: 790px) {
+	.intro-title h2 {
+		font-size: 36px
+	}
+	.intro-btn {
+		width: 250px;
+		height: 60px;
+		margin: 20px auto 0 auto;
+	}
+	.container,
+	.testimonials-section .container,
+	.testimonials-header {
+		width: 480px;
+	}
+	.header-menu ul {
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+	}
+	.header-menu ul li {
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.ftprojects-title {
+		flex-direction: column;
+		text-align: center;
+	}
+	.ftprojects-title-rightSide {
+		margin-top: 20px;
+	}
+	.featured-projects {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.featured-project {
+		margin-right: 0 !important;
+	}
+	.a1p-text-br1 {
+		display: none;
+	}
+}
+
+@media(max-width: 524px) {
+	.container,
+	.testimonials-section .container,
+	.testimonials-header {
+		width: 320px;
+	}
+	.intro-content {
+		padding-top: 40px;
+	}
+	.intro-title h2 {
+		font-size: 32px;
+	}
+	.intro-title h2 span {
+		font-size: 24px;
+	}
+	.intro-btn {
+		width: 200px;
+		font-size: 18px;
+	}
+	.about2part-content {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.a2p-content-photo {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+	.testimonial,
+	.testimonial-header img {
+		width: 300px;
+	}
+	.testimonial-header h3 {
+		font-size: 16px;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.testimonial-header p {
+		font-size: 11px;
+		bottom: 50px;
+	}
+	.testimonial-footer {
+		margin-left: 40px;
+	}
+}
+
+@media(max-width: 472px) {
+	.bAm-rightContent,
+	.sYp-rightContent {
+		text-align: center;
+	}
+
+	.become-a-member img,
+	.submit-your-project img {
+		display: none;
+	}
+}
+
+@media(max-width: 372px) {
+	.container,
+	.testimonials-section .container,
+	.testimonials-header,
+	.featured-projects,
+	.featured-project,
+	.featured-project-top img:nth-child(1),
+	.testimonial,
+	.testimonial-bg {
+		width: 280px;
+	}
+	.testimonial {
+		transform: translateX(-10px);
+	}
+	.testimonial-header p {
+		left: 53.5%;
+		transform: translateX(-50%);
+	}
+	.featured-project-top button {
+		right: 40px;
+	}
+
+	.projectDetails {
+		transform: translateX(90px);
+	}
+}
